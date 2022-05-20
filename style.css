@@ -1,0 +1,60 @@
+body {
+    margin:0;
+    background:linear-gradient(to right, #3a7bd5, #3a6073)
+}
+
+.popup {
+    display:flex;
+    justify-content:center;
+    margin-top: 30vh;
+    height: auto;
+    font-family: 'Barlow Condensed', sans-serif; 
+    
+}
+.popup-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height:auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 9px 7px 5px 1px rgba(50, 50, 50, 0.77);
+}
+
+h2 .popup-area {
+    font-size:15px;
+}
+
+#button-send {
+    margin-bottom: 10px;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size:inherit;
+    color: #222;
+    outline: none;
+    padding: 0.05rem;
+    background: none;
+    
+}
+
+ #email-box{
+    margin-top: 10px;
+}
+button {
+    background-color: #888;
+    color: #fff;
+    width: 280px;
+    height: 42px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.popup label {
+    font-size: 25px;
+}
